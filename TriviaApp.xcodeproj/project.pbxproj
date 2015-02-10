@@ -1,0 +1,1077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7744E3C71A7E7AF5007CBF89 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7744E3C61A7E7AF5007CBF89 /* IntroViewController.m */; };
+		7756CF891A7FF13400EC6271 /* NSDate+PSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7756CF881A7FF13400EC6271 /* NSDate+PSFoundation.m */; };
+		775A5DDD1A727BF400DCB8B0 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 775A5DDC1A727BF400DCB8B0 /* User.m */; };
+		775A5DF81A729A9400DCB8B0 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775A5DF71A729A9400DCB8B0 /* ProfileViewController.m */; };
+		775A5DFB1A72A0FB00DCB8B0 /* AvatarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775A5DFA1A72A0FB00DCB8B0 /* AvatarViewController.m */; };
+		775A5DFE1A72A83800DCB8B0 /* AvatarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 775A5DFD1A72A83800DCB8B0 /* AvatarCell.m */; };
+		777FFC4C1A67B191000DCF08 /* MuseoSans-100.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 777FFC471A67B191000DCF08 /* MuseoSans-100.ttf */; };
+		777FFC4D1A67B191000DCF08 /* MuseoSans-300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 777FFC481A67B191000DCF08 /* MuseoSans-300.ttf */; };
+		777FFC4E1A67B191000DCF08 /* MuseoSans-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 777FFC491A67B191000DCF08 /* MuseoSans-900.ttf */; };
+		777FFC4F1A67B191000DCF08 /* MuseoSans-500.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 777FFC4A1A67B191000DCF08 /* MuseoSans-500.ttf */; };
+		777FFC501A67B191000DCF08 /* MuseoSans-700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 777FFC4B1A67B191000DCF08 /* MuseoSans-700.ttf */; };
+		777FFC561A67CB0E000DCF08 /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 777FFC531A67CB0E000DCF08 /* UIView+Positioning.m */; };
+		777FFC571A67CB0E000DCF08 /* UIView-ViewFrameGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 777FFC551A67CB0E000DCF08 /* UIView-ViewFrameGeometry.m */; };
+		77819B8E1A897BD900C7FD9E /* FinalTrivieCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819B8D1A897BD900C7FD9E /* FinalTrivieCardView.m */; };
+		77819B901A897F2000C7FD9E /* FinalTrivie.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77819B8F1A897F2000C7FD9E /* FinalTrivie.xib */; };
+		77819B931A89B59900C7FD9E /* GameStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819B921A89B59900C7FD9E /* GameStatusViewController.m */; };
+		77819B991A89DB9100C7FD9E /* NumberFlipperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819B981A89DB9100C7FD9E /* NumberFlipperView.m */; };
+		77819BAA1A89DBE800C7FD9E /* JDDateCountdownFlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819B9D1A89DBE800C7FD9E /* JDDateCountdownFlipView.m */; };
+		77819BAB1A89DBE800C7FD9E /* JDFlipClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819B9F1A89DBE800C7FD9E /* JDFlipClockView.m */; };
+		77819BAC1A89DBE800C7FD9E /* JDFlipImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819BA11A89DBE800C7FD9E /* JDFlipImageView.m */; };
+		77819BAD1A89DBE800C7FD9E /* JDFlipNumberDigitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819BA31A89DBE800C7FD9E /* JDFlipNumberDigitView.m */; };
+		77819BAE1A89DBE800C7FD9E /* JDFlipNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819BA51A89DBE800C7FD9E /* JDFlipNumberView.m */; };
+		77819BAF1A89DBE800C7FD9E /* JDFlipNumberViewImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819BA71A89DBE800C7FD9E /* JDFlipNumberViewImageFactory.m */; };
+		77819BB01A89DBE800C7FD9E /* UIView+JDFlipImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819BA91A89DBE800C7FD9E /* UIView+JDFlipImageView.m */; };
+		77819BB51A89DC4500C7FD9E /* FlipDigitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819BB41A89DC4500C7FD9E /* FlipDigitView.m */; };
+		77819BB91A8A74D100C7FD9E /* JDFlipNumberView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77819BB81A8A74D100C7FD9E /* JDFlipNumberView.bundle */; };
+		778E3B331A73A55000F1A293 /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 778E3B321A73A55000F1A293 /* Answer.m */; };
+		778E3B361A73B8F900F1A293 /* TrivieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 778E3B351A73B8F900F1A293 /* TrivieView.m */; };
+		778E3B391A73D29300F1A293 /* TrivieControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 778E3B381A73D29300F1A293 /* TrivieControl.m */; };
+		778E3B3C1A73EAE700F1A293 /* TrivieCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 778E3B3B1A73EAE700F1A293 /* TrivieCircleView.m */; };
+		778E3B3F1A73EC5200F1A293 /* CategoryPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 778E3B3E1A73EC5200F1A293 /* CategoryPopupView.m */; };
+		778E3B421A778D4F00F1A293 /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 778E3B411A778D4F00F1A293 /* Round.m */; };
+		77BDE5381A67E9DB00A579EA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BDE5331A67E9DB00A579EA /* Bolts.framework */; };
+		77BDE5391A67E9DB00A579EA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BDE5341A67E9DB00A579EA /* Parse.framework */; };
+		77BDE53A1A67E9DB00A579EA /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BDE5351A67E9DB00A579EA /* ParseCrashReporting.framework */; };
+		77BDE53B1A67E9DB00A579EA /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BDE5361A67E9DB00A579EA /* ParseFacebookUtils.framework */; };
+		77BDE53C1A67E9DB00A579EA /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BDE5371A67E9DB00A579EA /* ParseUI.framework */; };
+		77BDE5411A67EB4400A579EA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BDE53E1A67EAEC00A579EA /* AudioToolbox.framework */; };
+		77BDE5431A67EB7300A579EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BDE5421A67EB7300A579EA /* SystemConfiguration.framework */; };
+		77BDE5451A67EBA200A579EA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BDE5441A67EBA200A579EA /* libsqlite3.dylib */; };
+		77BDE5491A67EC3800A579EA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BDE5481A67EC3800A579EA /* MobileCoreServices.framework */; };
+		77BDE54D1A67ED0900A579EA /* ParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE54C1A67ED0900A579EA /* ParseManager.m */; };
+		77BDE5501A67F08E00A579EA /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE54F1A67F08E00A579EA /* MainMenuViewController.m */; };
+		77BDE5531A67F3BF00A579EA /* LoginCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5521A67F3BF00A579EA /* LoginCardView.m */; };
+		77BDE5561A67FF8900A579EA /* TrivieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5551A67FF8900A579EA /* TrivieViewController.m */; };
+		77BDE5591A68156100A579EA /* TrivieBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5581A68156100A579EA /* TrivieBackgroundView.m */; };
+		77BDE55C1A6817DB00A579EA /* DrawingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE55B1A6817DB00A579EA /* DrawingHelper.m */; };
+		77BDE55F1A6819B400A579EA /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE55E1A6819B400A579EA /* Utils.m */; };
+		77BDE5641A681AFB00A579EA /* NSNumber+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5611A681AFB00A579EA /* NSNumber+Hex.m */; };
+		77BDE5651A681AFB00A579EA /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5631A681AFB00A579EA /* UIColor+Hex.m */; };
+		77BDE5691A68233500A579EA /* MainMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5681A68233500A579EA /* MainMenuCell.m */; };
+		77BDE56C1A68296200A579EA /* ScrollingBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE56B1A68296200A579EA /* ScrollingBackgroundView.m */; };
+		77BDE56F1A683D4E00A579EA /* MenuFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE56E1A683D4E00A579EA /* MenuFooterView.m */; };
+		77BDE5721A68464900A579EA /* ProfileImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5711A68464900A579EA /* ProfileImageView.m */; };
+		77BDE5751A684C1700A579EA /* MenuHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5741A684C1700A579EA /* MenuHeaderView.m */; };
+		77BDE5781A68A3F300A579EA /* TrivieNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5771A68A3F300A579EA /* TrivieNavController.m */; };
+		77BDE57B1A68A54F00A579EA /* NavBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE57A1A68A54F00A579EA /* NavBarView.m */; };
+		77BDE57E1A68C42A00A579EA /* NavButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE57D1A68C42A00A579EA /* NavButtonView.m */; };
+		77BDE5811A68DA2600A579EA /* GameCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5801A68DA2600A579EA /* GameCategory.m */; };
+		77BDE5841A68DA3500A579EA /* GameSubCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5831A68DA3500A579EA /* GameSubCategory.m */; };
+		77BDE5871A68EF7500A579EA /* CategoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5861A68EF7500A579EA /* CategoryManager.m */; };
+		77BDE58A1A68F24800A579EA /* NSArray+SSToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5891A68F24800A579EA /* NSArray+SSToolkitAdditions.m */; };
+		77BDE58D1A68F42E00A579EA /* NSData+SSToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE58C1A68F42E00A579EA /* NSData+SSToolkitAdditions.m */; };
+		77BDE5931A69007D00A579EA /* GameCreationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5921A69007D00A579EA /* GameCreationViewController.m */; };
+		77BDE5961A69011500A579EA /* GameCreationCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5951A69011500A579EA /* GameCreationCardView.m */; };
+		77BDE5991A6914E300A579EA /* CategoryButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE5981A6914E300A579EA /* CategoryButtonView.m */; };
+		77BDE59C1A691EAB00A579EA /* CategoryCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BDE59B1A691EAB00A579EA /* CategoryCardView.m */; };
+		77D968451A679FC600F319A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D968441A679FC600F319A7 /* main.m */; };
+		77D968481A679FC600F319A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D968471A679FC600F319A7 /* AppDelegate.m */; };
+		77D9684B1A679FC600F319A7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D9684A1A679FC600F319A7 /* LoginViewController.m */; };
+		77D9684E1A679FC600F319A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D9684C1A679FC600F319A7 /* Main.storyboard */; };
+		77D968501A679FC600F319A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D9684F1A679FC600F319A7 /* Images.xcassets */; };
+		77D968531A679FC600F319A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D968511A679FC600F319A7 /* LaunchScreen.xib */; };
+		77D9685F1A679FC600F319A7 /* MyTrivieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D9685E1A679FC600F319A7 /* MyTrivieTests.m */; };
+		77D9686D1A67A2F400F319A7 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D9686C1A67A2F400F319A7 /* CardView.m */; };
+		77E2A6571A6B4A370053F4F6 /* TrivieDivider.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A6561A6B4A370053F4F6 /* TrivieDivider.m */; };
+		77E2A65A1A6B50AC0053F4F6 /* PowerUpCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A6591A6B50AC0053F4F6 /* PowerUpCardView.m */; };
+		77E2A65D1A6B79BD0053F4F6 /* AnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A65C1A6B79BD0053F4F6 /* AnimatedImageView.m */; };
+		77E2A6601A6B93040053F4F6 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A65F1A6B93040053F4F6 /* GameViewController.m */; };
+		77E2A6631A6B9E230053F4F6 /* GameOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A6621A6B9E230053F4F6 /* GameOverlayView.m */; };
+		77E2A6651A6BAB590053F4F6 /* GameCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E2A6641A6BAB590053F4F6 /* GameCard.xib */; };
+		77E2A6681A6BB0A50053F4F6 /* GameCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A6671A6BB0A50053F4F6 /* GameCardView.m */; };
+		77E2A66B1A6BBB150053F4F6 /* GameArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A66A1A6BBB150053F4F6 /* GameArrowView.m */; };
+		77E2A66E1A6BC12B0053F4F6 /* TopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A66D1A6BC12B0053F4F6 /* TopBarView.m */; };
+		77E2A6711A6BCB740053F4F6 /* AnswerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A6701A6BCB740053F4F6 /* AnswerBorder.m */; };
+		77E2A6741A6BCEC10053F4F6 /* NumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A6731A6BCEC10053F4F6 /* NumberButton.m */; };
+		77E2A6771A6BCF5D0053F4F6 /* AnswerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A6761A6BCF5D0053F4F6 /* AnswerControl.m */; };
+		77E2A6791A6BD4C20053F4F6 /* Rockwell-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77E2A6781A6BD4C20053F4F6 /* Rockwell-Bold.ttf */; };
+		77E2A67C1A6BD9690053F4F6 /* GameStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A67B1A6BD9690053F4F6 /* GameStarView.m */; };
+		77E2A67F1A6BDB890053F4F6 /* GameClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A67E1A6BDB890053F4F6 /* GameClockView.m */; };
+		77E2A6821A6BDEF50053F4F6 /* GameContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A6811A6BDEF50053F4F6 /* GameContentView.m */; };
+		77E2A6861A6C2DD40053F4F6 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A6851A6C2DD40053F4F6 /* Question.m */; };
+		77E2A6891A6C59E90053F4F6 /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A6881A6C59E90053F4F6 /* Match.m */; };
+		77E2A68C1A6C87FC0053F4F6 /* ProfileBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2A68B1A6C87FC0053F4F6 /* ProfileBarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77D968591A679FC600F319A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77D968371A679FC600F319A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77D9683E1A679FC600F319A7;
+			remoteInfo = MyTrivie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7744E3C51A7E7AF5007CBF89 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		7744E3C61A7E7AF5007CBF89 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		7756CF871A7FF13400EC6271 /* NSDate+PSFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PSFoundation.h"; sourceTree = "<group>"; };
+		7756CF881A7FF13400EC6271 /* NSDate+PSFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PSFoundation.m"; sourceTree = "<group>"; };
+		775A5DDB1A727BF400DCB8B0 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		775A5DDC1A727BF400DCB8B0 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		775A5DF61A729A9400DCB8B0 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		775A5DF71A729A9400DCB8B0 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		775A5DF91A72A0FB00DCB8B0 /* AvatarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarViewController.h; sourceTree = "<group>"; };
+		775A5DFA1A72A0FB00DCB8B0 /* AvatarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarViewController.m; sourceTree = "<group>"; };
+		775A5DFC1A72A83800DCB8B0 /* AvatarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarCell.h; sourceTree = "<group>"; };
+		775A5DFD1A72A83800DCB8B0 /* AvatarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarCell.m; sourceTree = "<group>"; };
+		777FFC471A67B191000DCF08 /* MuseoSans-100.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-100.ttf"; sourceTree = "<group>"; };
+		777FFC481A67B191000DCF08 /* MuseoSans-300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-300.ttf"; sourceTree = "<group>"; };
+		777FFC491A67B191000DCF08 /* MuseoSans-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-900.ttf"; sourceTree = "<group>"; };
+		777FFC4A1A67B191000DCF08 /* MuseoSans-500.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-500.ttf"; sourceTree = "<group>"; };
+		777FFC4B1A67B191000DCF08 /* MuseoSans-700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-700.ttf"; sourceTree = "<group>"; };
+		777FFC521A67CB0E000DCF08 /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		777FFC531A67CB0E000DCF08 /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
+		777FFC541A67CB0E000DCF08 /* UIView-ViewFrameGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView-ViewFrameGeometry.h"; sourceTree = "<group>"; };
+		777FFC551A67CB0E000DCF08 /* UIView-ViewFrameGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView-ViewFrameGeometry.m"; sourceTree = "<group>"; };
+		77819B8C1A897BD900C7FD9E /* FinalTrivieCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalTrivieCardView.h; sourceTree = "<group>"; };
+		77819B8D1A897BD900C7FD9E /* FinalTrivieCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalTrivieCardView.m; sourceTree = "<group>"; };
+		77819B8F1A897F2000C7FD9E /* FinalTrivie.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinalTrivie.xib; sourceTree = "<group>"; };
+		77819B911A89B59900C7FD9E /* GameStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStatusViewController.h; sourceTree = "<group>"; };
+		77819B921A89B59900C7FD9E /* GameStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStatusViewController.m; sourceTree = "<group>"; };
+		77819B981A89DB9100C7FD9E /* NumberFlipperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFlipperView.m; sourceTree = "<group>"; };
+		77819B9A1A89DB9E00C7FD9E /* NumberFlipperView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberFlipperView.h; sourceTree = "<group>"; };
+		77819B9C1A89DBE800C7FD9E /* JDDateCountdownFlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDDateCountdownFlipView.h; sourceTree = "<group>"; };
+		77819B9D1A89DBE800C7FD9E /* JDDateCountdownFlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDDateCountdownFlipView.m; sourceTree = "<group>"; };
+		77819B9E1A89DBE800C7FD9E /* JDFlipClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipClockView.h; sourceTree = "<group>"; };
+		77819B9F1A89DBE800C7FD9E /* JDFlipClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipClockView.m; sourceTree = "<group>"; };
+		77819BA01A89DBE800C7FD9E /* JDFlipImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipImageView.h; sourceTree = "<group>"; };
+		77819BA11A89DBE800C7FD9E /* JDFlipImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipImageView.m; sourceTree = "<group>"; };
+		77819BA21A89DBE800C7FD9E /* JDFlipNumberDigitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberDigitView.h; sourceTree = "<group>"; };
+		77819BA31A89DBE800C7FD9E /* JDFlipNumberDigitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberDigitView.m; sourceTree = "<group>"; };
+		77819BA41A89DBE800C7FD9E /* JDFlipNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberView.h; sourceTree = "<group>"; };
+		77819BA51A89DBE800C7FD9E /* JDFlipNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberView.m; sourceTree = "<group>"; };
+		77819BA61A89DBE800C7FD9E /* JDFlipNumberViewImageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberViewImageFactory.h; sourceTree = "<group>"; };
+		77819BA71A89DBE800C7FD9E /* JDFlipNumberViewImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberViewImageFactory.m; sourceTree = "<group>"; };
+		77819BA81A89DBE800C7FD9E /* UIView+JDFlipImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDFlipImageView.h"; sourceTree = "<group>"; };
+		77819BA91A89DBE800C7FD9E /* UIView+JDFlipImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDFlipImageView.m"; sourceTree = "<group>"; };
+		77819BB31A89DC2C00C7FD9E /* FlipDigitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipDigitView.h; sourceTree = "<group>"; };
+		77819BB41A89DC4500C7FD9E /* FlipDigitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipDigitView.m; sourceTree = "<group>"; };
+		77819BB81A8A74D100C7FD9E /* JDFlipNumberView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDFlipNumberView.bundle; sourceTree = "<group>"; };
+		778E3B311A73A55000F1A293 /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Answer.h; sourceTree = "<group>"; };
+		778E3B321A73A55000F1A293 /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer.m; sourceTree = "<group>"; };
+		778E3B341A73B8F900F1A293 /* TrivieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrivieView.h; sourceTree = "<group>"; };
+		778E3B351A73B8F900F1A293 /* TrivieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrivieView.m; sourceTree = "<group>"; };
+		778E3B371A73D29300F1A293 /* TrivieControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrivieControl.h; sourceTree = "<group>"; };
+		778E3B381A73D29300F1A293 /* TrivieControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrivieControl.m; sourceTree = "<group>"; };
+		778E3B3A1A73EAE700F1A293 /* TrivieCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrivieCircleView.h; sourceTree = "<group>"; };
+		778E3B3B1A73EAE700F1A293 /* TrivieCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrivieCircleView.m; sourceTree = "<group>"; };
+		778E3B3D1A73EC5200F1A293 /* CategoryPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryPopupView.h; sourceTree = "<group>"; };
+		778E3B3E1A73EC5200F1A293 /* CategoryPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryPopupView.m; sourceTree = "<group>"; };
+		778E3B401A778D4F00F1A293 /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
+		778E3B411A778D4F00F1A293 /* Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round.m; sourceTree = "<group>"; };
+		77BDE5331A67E9DB00A579EA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		77BDE5341A67E9DB00A579EA /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		77BDE5351A67E9DB00A579EA /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		77BDE5361A67E9DB00A579EA /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		77BDE5371A67E9DB00A579EA /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		77BDE53E1A67EAEC00A579EA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		77BDE5421A67EB7300A579EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		77BDE5441A67EBA200A579EA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		77BDE5461A67EBD700A579EA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		77BDE5481A67EC3800A579EA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		77BDE54B1A67ED0900A579EA /* ParseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseManager.h; sourceTree = "<group>"; };
+		77BDE54C1A67ED0900A579EA /* ParseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseManager.m; sourceTree = "<group>"; };
+		77BDE54E1A67F08E00A579EA /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		77BDE54F1A67F08E00A579EA /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		77BDE5511A67F3BF00A579EA /* LoginCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCardView.h; sourceTree = "<group>"; };
+		77BDE5521A67F3BF00A579EA /* LoginCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCardView.m; sourceTree = "<group>"; };
+		77BDE5541A67FF8900A579EA /* TrivieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrivieViewController.h; sourceTree = "<group>"; };
+		77BDE5551A67FF8900A579EA /* TrivieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrivieViewController.m; sourceTree = "<group>"; };
+		77BDE5571A68156100A579EA /* TrivieBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrivieBackgroundView.h; sourceTree = "<group>"; };
+		77BDE5581A68156100A579EA /* TrivieBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrivieBackgroundView.m; sourceTree = "<group>"; };
+		77BDE55A1A6817DB00A579EA /* DrawingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingHelper.h; sourceTree = "<group>"; };
+		77BDE55B1A6817DB00A579EA /* DrawingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingHelper.m; sourceTree = "<group>"; };
+		77BDE55D1A6819B400A579EA /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		77BDE55E1A6819B400A579EA /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		77BDE5601A681AFB00A579EA /* NSNumber+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Hex.h"; sourceTree = "<group>"; };
+		77BDE5611A681AFB00A579EA /* NSNumber+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Hex.m"; sourceTree = "<group>"; };
+		77BDE5621A681AFB00A579EA /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		77BDE5631A681AFB00A579EA /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		77BDE5671A68233500A579EA /* MainMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuCell.h; sourceTree = "<group>"; };
+		77BDE5681A68233500A579EA /* MainMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuCell.m; sourceTree = "<group>"; };
+		77BDE56A1A68296200A579EA /* ScrollingBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingBackgroundView.h; sourceTree = "<group>"; };
+		77BDE56B1A68296200A579EA /* ScrollingBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingBackgroundView.m; sourceTree = "<group>"; };
+		77BDE56D1A683D4E00A579EA /* MenuFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuFooterView.h; sourceTree = "<group>"; };
+		77BDE56E1A683D4E00A579EA /* MenuFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuFooterView.m; sourceTree = "<group>"; };
+		77BDE5701A68464900A579EA /* ProfileImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileImageView.h; sourceTree = "<group>"; };
+		77BDE5711A68464900A579EA /* ProfileImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileImageView.m; sourceTree = "<group>"; };
+		77BDE5731A684C1700A579EA /* MenuHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuHeaderView.h; sourceTree = "<group>"; };
+		77BDE5741A684C1700A579EA /* MenuHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuHeaderView.m; sourceTree = "<group>"; };
+		77BDE5761A68A3F300A579EA /* TrivieNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrivieNavController.h; sourceTree = "<group>"; };
+		77BDE5771A68A3F300A579EA /* TrivieNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrivieNavController.m; sourceTree = "<group>"; };
+		77BDE5791A68A54F00A579EA /* NavBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavBarView.h; sourceTree = "<group>"; };
+		77BDE57A1A68A54F00A579EA /* NavBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavBarView.m; sourceTree = "<group>"; };
+		77BDE57C1A68C42A00A579EA /* NavButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavButtonView.h; sourceTree = "<group>"; };
+		77BDE57D1A68C42A00A579EA /* NavButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavButtonView.m; sourceTree = "<group>"; };
+		77BDE57F1A68DA2600A579EA /* GameCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCategory.h; sourceTree = "<group>"; };
+		77BDE5801A68DA2600A579EA /* GameCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCategory.m; sourceTree = "<group>"; };
+		77BDE5821A68DA3500A579EA /* GameSubCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSubCategory.h; sourceTree = "<group>"; };
+		77BDE5831A68DA3500A579EA /* GameSubCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSubCategory.m; sourceTree = "<group>"; };
+		77BDE5851A68EF7500A579EA /* CategoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryManager.h; sourceTree = "<group>"; };
+		77BDE5861A68EF7500A579EA /* CategoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryManager.m; sourceTree = "<group>"; };
+		77BDE5881A68F24800A579EA /* NSArray+SSToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SSToolkitAdditions.h"; sourceTree = "<group>"; };
+		77BDE5891A68F24800A579EA /* NSArray+SSToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SSToolkitAdditions.m"; sourceTree = "<group>"; };
+		77BDE58B1A68F42E00A579EA /* NSData+SSToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SSToolkitAdditions.h"; sourceTree = "<group>"; };
+		77BDE58C1A68F42E00A579EA /* NSData+SSToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SSToolkitAdditions.m"; sourceTree = "<group>"; };
+		77BDE5911A69007D00A579EA /* GameCreationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCreationViewController.h; sourceTree = "<group>"; };
+		77BDE5921A69007D00A579EA /* GameCreationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCreationViewController.m; sourceTree = "<group>"; };
+		77BDE5941A69011500A579EA /* GameCreationCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCreationCardView.h; sourceTree = "<group>"; };
+		77BDE5951A69011500A579EA /* GameCreationCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCreationCardView.m; sourceTree = "<group>"; };
+		77BDE5971A6914E300A579EA /* CategoryButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryButtonView.h; sourceTree = "<group>"; };
+		77BDE5981A6914E300A579EA /* CategoryButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryButtonView.m; sourceTree = "<group>"; };
+		77BDE59A1A691EAB00A579EA /* CategoryCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCardView.h; sourceTree = "<group>"; };
+		77BDE59B1A691EAB00A579EA /* CategoryCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCardView.m; sourceTree = "<group>"; };
+		77D9683F1A679FC600F319A7 /* TriviaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D968431A679FC600F319A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D968441A679FC600F319A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77D968461A679FC600F319A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77D968471A679FC600F319A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77D968491A679FC600F319A7 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		77D9684A1A679FC600F319A7 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		77D9684D1A679FC600F319A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77D9684F1A679FC600F319A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77D968521A679FC600F319A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		77D968581A679FC600F319A7 /* TriviaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D9685D1A679FC600F319A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D9685E1A679FC600F319A7 /* MyTrivieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTrivieTests.m; sourceTree = "<group>"; };
+		77D9686B1A67A2F400F319A7 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		77D9686C1A67A2F400F319A7 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		77D9686F1A67A38F00F319A7 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		77D968701A67A3BB00F319A7 /* TriviaApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TriviaApp-Prefix.pch"; sourceTree = "<group>"; };
+		77E2A6551A6B4A370053F4F6 /* TrivieDivider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrivieDivider.h; sourceTree = "<group>"; };
+		77E2A6561A6B4A370053F4F6 /* TrivieDivider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrivieDivider.m; sourceTree = "<group>"; };
+		77E2A6581A6B50AC0053F4F6 /* PowerUpCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerUpCardView.h; sourceTree = "<group>"; };
+		77E2A6591A6B50AC0053F4F6 /* PowerUpCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerUpCardView.m; sourceTree = "<group>"; };
+		77E2A65B1A6B79BD0053F4F6 /* AnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedImageView.h; sourceTree = "<group>"; };
+		77E2A65C1A6B79BD0053F4F6 /* AnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedImageView.m; sourceTree = "<group>"; };
+		77E2A65E1A6B93040053F4F6 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		77E2A65F1A6B93040053F4F6 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		77E2A6611A6B9E230053F4F6 /* GameOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverlayView.h; sourceTree = "<group>"; };
+		77E2A6621A6B9E230053F4F6 /* GameOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverlayView.m; sourceTree = "<group>"; };
+		77E2A6641A6BAB590053F4F6 /* GameCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameCard.xib; sourceTree = "<group>"; };
+		77E2A6661A6BB0A50053F4F6 /* GameCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCardView.h; sourceTree = "<group>"; };
+		77E2A6671A6BB0A50053F4F6 /* GameCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCardView.m; sourceTree = "<group>"; };
+		77E2A6691A6BBB150053F4F6 /* GameArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameArrowView.h; sourceTree = "<group>"; };
+		77E2A66A1A6BBB150053F4F6 /* GameArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameArrowView.m; sourceTree = "<group>"; };
+		77E2A66C1A6BC12B0053F4F6 /* TopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarView.h; sourceTree = "<group>"; };
+		77E2A66D1A6BC12B0053F4F6 /* TopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarView.m; sourceTree = "<group>"; };
+		77E2A66F1A6BCB740053F4F6 /* AnswerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerBorder.h; sourceTree = "<group>"; };
+		77E2A6701A6BCB740053F4F6 /* AnswerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerBorder.m; sourceTree = "<group>"; };
+		77E2A6721A6BCEC10053F4F6 /* NumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberButton.h; sourceTree = "<group>"; };
+		77E2A6731A6BCEC10053F4F6 /* NumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberButton.m; sourceTree = "<group>"; };
+		77E2A6751A6BCF5D0053F4F6 /* AnswerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerControl.h; sourceTree = "<group>"; };
+		77E2A6761A6BCF5D0053F4F6 /* AnswerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerControl.m; sourceTree = "<group>"; };
+		77E2A6781A6BD4C20053F4F6 /* Rockwell-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rockwell-Bold.ttf"; sourceTree = "<group>"; };
+		77E2A67A1A6BD9690053F4F6 /* GameStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStarView.h; sourceTree = "<group>"; };
+		77E2A67B1A6BD9690053F4F6 /* GameStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStarView.m; sourceTree = "<group>"; };
+		77E2A67D1A6BDB890053F4F6 /* GameClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameClockView.h; sourceTree = "<group>"; };
+		77E2A67E1A6BDB890053F4F6 /* GameClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameClockView.m; sourceTree = "<group>"; };
+		77E2A6801A6BDEF50053F4F6 /* GameContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameContentView.h; sourceTree = "<group>"; };
+		77E2A6811A6BDEF50053F4F6 /* GameContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameContentView.m; sourceTree = "<group>"; };
+		77E2A6841A6C2DD40053F4F6 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		77E2A6851A6C2DD40053F4F6 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		77E2A6871A6C59E90053F4F6 /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		77E2A6881A6C59E90053F4F6 /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		77E2A68A1A6C87FC0053F4F6 /* ProfileBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileBarView.h; sourceTree = "<group>"; };
+		77E2A68B1A6C87FC0053F4F6 /* ProfileBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileBarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77D9683C1A679FC600F319A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BDE5491A67EC3800A579EA /* MobileCoreServices.framework in Frameworks */,
+				77BDE5451A67EBA200A579EA /* libsqlite3.dylib in Frameworks */,
+				77BDE5431A67EB7300A579EA /* SystemConfiguration.framework in Frameworks */,
+				77BDE5411A67EB4400A579EA /* AudioToolbox.framework in Frameworks */,
+				77BDE5391A67E9DB00A579EA /* Parse.framework in Frameworks */,
+				77BDE53A1A67E9DB00A579EA /* ParseCrashReporting.framework in Frameworks */,
+				77BDE53C1A67E9DB00A579EA /* ParseUI.framework in Frameworks */,
+				77BDE53B1A67E9DB00A579EA /* ParseFacebookUtils.framework in Frameworks */,
+				77BDE5381A67E9DB00A579EA /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D968551A679FC600F319A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		777FFC461A67B185000DCF08 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				77E2A6781A6BD4C20053F4F6 /* Rockwell-Bold.ttf */,
+				777FFC471A67B191000DCF08 /* MuseoSans-100.ttf */,
+				777FFC481A67B191000DCF08 /* MuseoSans-300.ttf */,
+				777FFC491A67B191000DCF08 /* MuseoSans-900.ttf */,
+				777FFC4A1A67B191000DCF08 /* MuseoSans-500.ttf */,
+				777FFC4B1A67B191000DCF08 /* MuseoSans-700.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		777FFC511A67CAF6000DCF08 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				77BDE5881A68F24800A579EA /* NSArray+SSToolkitAdditions.h */,
+				77BDE5891A68F24800A579EA /* NSArray+SSToolkitAdditions.m */,
+				77BDE58B1A68F42E00A579EA /* NSData+SSToolkitAdditions.h */,
+				77BDE58C1A68F42E00A579EA /* NSData+SSToolkitAdditions.m */,
+				7756CF871A7FF13400EC6271 /* NSDate+PSFoundation.h */,
+				7756CF881A7FF13400EC6271 /* NSDate+PSFoundation.m */,
+				77BDE5601A681AFB00A579EA /* NSNumber+Hex.h */,
+				77BDE5611A681AFB00A579EA /* NSNumber+Hex.m */,
+				77BDE5621A681AFB00A579EA /* UIColor+Hex.h */,
+				77BDE5631A681AFB00A579EA /* UIColor+Hex.m */,
+				777FFC521A67CB0E000DCF08 /* UIView+Positioning.h */,
+				777FFC531A67CB0E000DCF08 /* UIView+Positioning.m */,
+				777FFC541A67CB0E000DCF08 /* UIView-ViewFrameGeometry.h */,
+				777FFC551A67CB0E000DCF08 /* UIView-ViewFrameGeometry.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		77819B941A89DAD300C7FD9E /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				77BDE5791A68A54F00A579EA /* NavBarView.h */,
+				77BDE57A1A68A54F00A579EA /* NavBarView.m */,
+				77BDE57C1A68C42A00A579EA /* NavButtonView.h */,
+				77BDE57D1A68C42A00A579EA /* NavButtonView.m */,
+				77E2A68A1A6C87FC0053F4F6 /* ProfileBarView.h */,
+				77E2A68B1A6C87FC0053F4F6 /* ProfileBarView.m */,
+			);
+			name = navigation;
+			sourceTree = "<group>";
+		};
+		77819B951A89DB0700C7FD9E /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				77BDE56A1A68296200A579EA /* ScrollingBackgroundView.h */,
+				77BDE56B1A68296200A579EA /* ScrollingBackgroundView.m */,
+				77BDE5571A68156100A579EA /* TrivieBackgroundView.h */,
+				77BDE5581A68156100A579EA /* TrivieBackgroundView.m */,
+			);
+			name = backgrounds;
+			sourceTree = "<group>";
+		};
+		77819B961A89DB3900C7FD9E /* cards */ = {
+			isa = PBXGroup;
+			children = (
+				77D9686B1A67A2F400F319A7 /* CardView.h */,
+				77D9686C1A67A2F400F319A7 /* CardView.m */,
+				77BDE59A1A691EAB00A579EA /* CategoryCardView.h */,
+				77BDE59B1A691EAB00A579EA /* CategoryCardView.m */,
+				77BDE5941A69011500A579EA /* GameCreationCardView.h */,
+				77BDE5951A69011500A579EA /* GameCreationCardView.m */,
+				77E2A6581A6B50AC0053F4F6 /* PowerUpCardView.h */,
+				77E2A6591A6B50AC0053F4F6 /* PowerUpCardView.m */,
+				77BDE5511A67F3BF00A579EA /* LoginCardView.h */,
+				77BDE5521A67F3BF00A579EA /* LoginCardView.m */,
+			);
+			name = cards;
+			sourceTree = "<group>";
+		};
+		77819B971A89DB6800C7FD9E /* ui elements */ = {
+			isa = PBXGroup;
+			children = (
+				778E3B3A1A73EAE700F1A293 /* TrivieCircleView.h */,
+				778E3B3B1A73EAE700F1A293 /* TrivieCircleView.m */,
+				778E3B371A73D29300F1A293 /* TrivieControl.h */,
+				778E3B381A73D29300F1A293 /* TrivieControl.m */,
+				77E2A65B1A6B79BD0053F4F6 /* AnimatedImageView.h */,
+				77E2A65C1A6B79BD0053F4F6 /* AnimatedImageView.m */,
+				77E2A6551A6B4A370053F4F6 /* TrivieDivider.h */,
+				77E2A6561A6B4A370053F4F6 /* TrivieDivider.m */,
+			);
+			name = "ui elements";
+			sourceTree = "<group>";
+		};
+		77819B9B1A89DBC700C7FD9E /* JDFlipNumber */ = {
+			isa = PBXGroup;
+			children = (
+				77819BB81A8A74D100C7FD9E /* JDFlipNumberView.bundle */,
+				77819B9C1A89DBE800C7FD9E /* JDDateCountdownFlipView.h */,
+				77819B9D1A89DBE800C7FD9E /* JDDateCountdownFlipView.m */,
+				77819B9E1A89DBE800C7FD9E /* JDFlipClockView.h */,
+				77819B9F1A89DBE800C7FD9E /* JDFlipClockView.m */,
+				77819BA01A89DBE800C7FD9E /* JDFlipImageView.h */,
+				77819BA11A89DBE800C7FD9E /* JDFlipImageView.m */,
+				77819BA21A89DBE800C7FD9E /* JDFlipNumberDigitView.h */,
+				77819BA31A89DBE800C7FD9E /* JDFlipNumberDigitView.m */,
+				77819BA41A89DBE800C7FD9E /* JDFlipNumberView.h */,
+				77819BA51A89DBE800C7FD9E /* JDFlipNumberView.m */,
+				77819BA61A89DBE800C7FD9E /* JDFlipNumberViewImageFactory.h */,
+				77819BA71A89DBE800C7FD9E /* JDFlipNumberViewImageFactory.m */,
+				77819BA81A89DBE800C7FD9E /* UIView+JDFlipImageView.h */,
+				77819BA91A89DBE800C7FD9E /* UIView+JDFlipImageView.m */,
+			);
+			name = JDFlipNumber;
+			sourceTree = "<group>";
+		};
+		77BDE5321A67E9DB00A579EA /* parse */ = {
+			isa = PBXGroup;
+			children = (
+				77BDE5331A67E9DB00A579EA /* Bolts.framework */,
+				77BDE5341A67E9DB00A579EA /* Parse.framework */,
+				77BDE5351A67E9DB00A579EA /* ParseCrashReporting.framework */,
+				77BDE5361A67E9DB00A579EA /* ParseFacebookUtils.framework */,
+				77BDE5371A67E9DB00A579EA /* ParseUI.framework */,
+			);
+			name = parse;
+			path = ../parse;
+			sourceTree = "<group>";
+		};
+		77BDE53D1A67E9E900A579EA /* external libraries */ = {
+			isa = PBXGroup;
+			children = (
+				77819B9B1A89DBC700C7FD9E /* JDFlipNumber */,
+				77BDE5321A67E9DB00A579EA /* parse */,
+			);
+			name = "external libraries";
+			sourceTree = "<group>";
+		};
+		77BDE5401A67EB0E00A579EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77BDE5481A67EC3800A579EA /* MobileCoreServices.framework */,
+				77BDE5461A67EBD700A579EA /* libz.dylib */,
+				77BDE5441A67EBA200A579EA /* libsqlite3.dylib */,
+				77BDE5421A67EB7300A579EA /* SystemConfiguration.framework */,
+				77BDE53E1A67EAEC00A579EA /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			path = MyTrivieTests;
+			sourceTree = "<group>";
+		};
+		77BDE54A1A67ECD800A579EA /* singleton classes */ = {
+			isa = PBXGroup;
+			children = (
+				77BDE54B1A67ED0900A579EA /* ParseManager.h */,
+				77BDE54C1A67ED0900A579EA /* ParseManager.m */,
+				77BDE5851A68EF7500A579EA /* CategoryManager.h */,
+				77BDE5861A68EF7500A579EA /* CategoryManager.m */,
+			);
+			name = "singleton classes";
+			sourceTree = "<group>";
+		};
+		77BDE5661A68231E00A579EA /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				77BDE5671A68233500A579EA /* MainMenuCell.h */,
+				77BDE5681A68233500A579EA /* MainMenuCell.m */,
+				775A5DFC1A72A83800DCB8B0 /* AvatarCell.h */,
+				775A5DFD1A72A83800DCB8B0 /* AvatarCell.m */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		77D968361A679FC600F319A7 = {
+			isa = PBXGroup;
+			children = (
+				77D968411A679FC600F319A7 /* TriviaApp */,
+				77D9685B1A679FC600F319A7 /* TriviaAppTests */,
+				77BDE5401A67EB0E00A579EA /* Frameworks */,
+				77D968401A679FC600F319A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77D968401A679FC600F319A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77D9683F1A679FC600F319A7 /* TriviaApp.app */,
+				77D968581A679FC600F319A7 /* TriviaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77D968411A679FC600F319A7 /* TriviaApp */ = {
+			isa = PBXGroup;
+			children = (
+				77BDE53D1A67E9E900A579EA /* external libraries */,
+				777FFC511A67CAF6000DCF08 /* categories */,
+				77D9686E1A67A38200F319A7 /* utils */,
+				77BDE54A1A67ECD800A579EA /* singleton classes */,
+				77D9686A1A679FE500F319A7 /* view */,
+				77D968681A679FD700F319A7 /* controller */,
+				77D968691A679FDF00F319A7 /* model */,
+				77D968461A679FC600F319A7 /* AppDelegate.h */,
+				77D968471A679FC600F319A7 /* AppDelegate.m */,
+				77D968421A679FC600F319A7 /* Supporting Files */,
+			);
+			name = TriviaApp;
+			path = MyTrivie;
+			sourceTree = "<group>";
+		};
+		77D968421A679FC600F319A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				777FFC461A67B185000DCF08 /* fonts */,
+				77D9684F1A679FC600F319A7 /* Images.xcassets */,
+				77D968511A679FC600F319A7 /* LaunchScreen.xib */,
+				77D9684C1A679FC600F319A7 /* Main.storyboard */,
+				77E2A6641A6BAB590053F4F6 /* GameCard.xib */,
+				77819B8F1A897F2000C7FD9E /* FinalTrivie.xib */,
+				77D968431A679FC600F319A7 /* Info.plist */,
+				77D968441A679FC600F319A7 /* main.m */,
+				77D968701A67A3BB00F319A7 /* TriviaApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77D9685B1A679FC600F319A7 /* TriviaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				77D9685E1A679FC600F319A7 /* MyTrivieTests.m */,
+				77D9685C1A679FC600F319A7 /* Supporting Files */,
+			);
+			name = TriviaAppTests;
+			path = MyTrivieTests;
+			sourceTree = "<group>";
+		};
+		77D9685C1A679FC600F319A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77D9685D1A679FC600F319A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77D968681A679FD700F319A7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				77D968491A679FC600F319A7 /* LoginViewController.h */,
+				77D9684A1A679FC600F319A7 /* LoginViewController.m */,
+				77BDE5911A69007D00A579EA /* GameCreationViewController.h */,
+				77BDE5921A69007D00A579EA /* GameCreationViewController.m */,
+				77819B911A89B59900C7FD9E /* GameStatusViewController.h */,
+				77819B921A89B59900C7FD9E /* GameStatusViewController.m */,
+				77E2A65E1A6B93040053F4F6 /* GameViewController.h */,
+				77E2A65F1A6B93040053F4F6 /* GameViewController.m */,
+				7744E3C51A7E7AF5007CBF89 /* IntroViewController.h */,
+				7744E3C61A7E7AF5007CBF89 /* IntroViewController.m */,
+				77BDE54E1A67F08E00A579EA /* MainMenuViewController.h */,
+				77BDE54F1A67F08E00A579EA /* MainMenuViewController.m */,
+				775A5DF61A729A9400DCB8B0 /* ProfileViewController.h */,
+				775A5DF71A729A9400DCB8B0 /* ProfileViewController.m */,
+				77BDE5541A67FF8900A579EA /* TrivieViewController.h */,
+				77BDE5551A67FF8900A579EA /* TrivieViewController.m */,
+				77BDE5761A68A3F300A579EA /* TrivieNavController.h */,
+				77BDE5771A68A3F300A579EA /* TrivieNavController.m */,
+				775A5DF91A72A0FB00DCB8B0 /* AvatarViewController.h */,
+				775A5DFA1A72A0FB00DCB8B0 /* AvatarViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		77D968691A679FDF00F319A7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				77BDE57F1A68DA2600A579EA /* GameCategory.h */,
+				77BDE5801A68DA2600A579EA /* GameCategory.m */,
+				77BDE5821A68DA3500A579EA /* GameSubCategory.h */,
+				77BDE5831A68DA3500A579EA /* GameSubCategory.m */,
+				77E2A6841A6C2DD40053F4F6 /* Question.h */,
+				77E2A6851A6C2DD40053F4F6 /* Question.m */,
+				778E3B311A73A55000F1A293 /* Answer.h */,
+				778E3B321A73A55000F1A293 /* Answer.m */,
+				77E2A6871A6C59E90053F4F6 /* Match.h */,
+				77E2A6881A6C59E90053F4F6 /* Match.m */,
+				778E3B401A778D4F00F1A293 /* Round.h */,
+				778E3B411A778D4F00F1A293 /* Round.m */,
+				775A5DDB1A727BF400DCB8B0 /* User.h */,
+				775A5DDC1A727BF400DCB8B0 /* User.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		77D9686A1A679FE500F319A7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				77819B971A89DB6800C7FD9E /* ui elements */,
+				77819B961A89DB3900C7FD9E /* cards */,
+				77819B951A89DB0700C7FD9E /* backgrounds */,
+				77819B941A89DAD300C7FD9E /* navigation */,
+				77BDE5661A68231E00A579EA /* cells */,
+				77E2A6831A6BDF830053F4F6 /* game */,
+				778E3B3D1A73EC5200F1A293 /* CategoryPopupView.h */,
+				778E3B3E1A73EC5200F1A293 /* CategoryPopupView.m */,
+				778E3B341A73B8F900F1A293 /* TrivieView.h */,
+				778E3B351A73B8F900F1A293 /* TrivieView.m */,
+				77BDE5971A6914E300A579EA /* CategoryButtonView.h */,
+				77BDE5981A6914E300A579EA /* CategoryButtonView.m */,
+				77BDE5701A68464900A579EA /* ProfileImageView.h */,
+				77BDE5711A68464900A579EA /* ProfileImageView.m */,
+				77BDE56D1A683D4E00A579EA /* MenuFooterView.h */,
+				77BDE56E1A683D4E00A579EA /* MenuFooterView.m */,
+				77BDE5731A684C1700A579EA /* MenuHeaderView.h */,
+				77BDE5741A684C1700A579EA /* MenuHeaderView.m */,
+				77819BB31A89DC2C00C7FD9E /* FlipDigitView.h */,
+				77819BB41A89DC4500C7FD9E /* FlipDigitView.m */,
+				77819B9A1A89DB9E00C7FD9E /* NumberFlipperView.h */,
+				77819B981A89DB9100C7FD9E /* NumberFlipperView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		77D9686E1A67A38200F319A7 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				77D9686F1A67A38F00F319A7 /* Constants.h */,
+				77BDE55A1A6817DB00A579EA /* DrawingHelper.h */,
+				77BDE55B1A6817DB00A579EA /* DrawingHelper.m */,
+				77BDE55D1A6819B400A579EA /* Utils.h */,
+				77BDE55E1A6819B400A579EA /* Utils.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		77E2A6831A6BDF830053F4F6 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				77E2A6751A6BCF5D0053F4F6 /* AnswerControl.h */,
+				77E2A6761A6BCF5D0053F4F6 /* AnswerControl.m */,
+				77E2A66F1A6BCB740053F4F6 /* AnswerBorder.h */,
+				77E2A6701A6BCB740053F4F6 /* AnswerBorder.m */,
+				77E2A6721A6BCEC10053F4F6 /* NumberButton.h */,
+				77E2A6731A6BCEC10053F4F6 /* NumberButton.m */,
+				77E2A6691A6BBB150053F4F6 /* GameArrowView.h */,
+				77E2A66A1A6BBB150053F4F6 /* GameArrowView.m */,
+				77819B8C1A897BD900C7FD9E /* FinalTrivieCardView.h */,
+				77819B8D1A897BD900C7FD9E /* FinalTrivieCardView.m */,
+				77E2A6661A6BB0A50053F4F6 /* GameCardView.h */,
+				77E2A6671A6BB0A50053F4F6 /* GameCardView.m */,
+				77E2A67D1A6BDB890053F4F6 /* GameClockView.h */,
+				77E2A67E1A6BDB890053F4F6 /* GameClockView.m */,
+				77E2A6801A6BDEF50053F4F6 /* GameContentView.h */,
+				77E2A6811A6BDEF50053F4F6 /* GameContentView.m */,
+				77E2A6611A6B9E230053F4F6 /* GameOverlayView.h */,
+				77E2A6621A6B9E230053F4F6 /* GameOverlayView.m */,
+				77E2A67A1A6BD9690053F4F6 /* GameStarView.h */,
+				77E2A67B1A6BD9690053F4F6 /* GameStarView.m */,
+				77E2A66C1A6BC12B0053F4F6 /* TopBarView.h */,
+				77E2A66D1A6BC12B0053F4F6 /* TopBarView.m */,
+			);
+			name = game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77D9683E1A679FC600F319A7 /* TriviaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D968621A679FC600F319A7 /* Build configuration list for PBXNativeTarget "TriviaApp" */;
+			buildPhases = (
+				77D9683B1A679FC600F319A7 /* Sources */,
+				77D9683C1A679FC600F319A7 /* Frameworks */,
+				77D9683D1A679FC600F319A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriviaApp;
+			productName = MyTrivie;
+			productReference = 77D9683F1A679FC600F319A7 /* TriviaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77D968571A679FC600F319A7 /* TriviaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D968651A679FC600F319A7 /* Build configuration list for PBXNativeTarget "TriviaAppTests" */;
+			buildPhases = (
+				77D968541A679FC600F319A7 /* Sources */,
+				77D968551A679FC600F319A7 /* Frameworks */,
+				77D968561A679FC600F319A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77D9685A1A679FC600F319A7 /* PBXTargetDependency */,
+			);
+			name = TriviaAppTests;
+			productName = MyTrivieTests;
+			productReference = 77D968581A679FC600F319A7 /* TriviaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77D968371A679FC600F319A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Jennifer Duffey";
+				TargetAttributes = {
+					77D9683E1A679FC600F319A7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					77D968571A679FC600F319A7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 77D9683E1A679FC600F319A7;
+					};
+				};
+			};
+			buildConfigurationList = 77D9683A1A679FC600F319A7 /* Build configuration list for PBXProject "TriviaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77D968361A679FC600F319A7;
+			productRefGroup = 77D968401A679FC600F319A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77D9683E1A679FC600F319A7 /* TriviaApp */,
+				77D968571A679FC600F319A7 /* TriviaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77D9683D1A679FC600F319A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E2A6791A6BD4C20053F4F6 /* Rockwell-Bold.ttf in Resources */,
+				77D9684E1A679FC600F319A7 /* Main.storyboard in Resources */,
+				777FFC4C1A67B191000DCF08 /* MuseoSans-100.ttf in Resources */,
+				77D968531A679FC600F319A7 /* LaunchScreen.xib in Resources */,
+				77819B901A897F2000C7FD9E /* FinalTrivie.xib in Resources */,
+				777FFC4F1A67B191000DCF08 /* MuseoSans-500.ttf in Resources */,
+				777FFC4D1A67B191000DCF08 /* MuseoSans-300.ttf in Resources */,
+				77E2A6651A6BAB590053F4F6 /* GameCard.xib in Resources */,
+				77D968501A679FC600F319A7 /* Images.xcassets in Resources */,
+				777FFC4E1A67B191000DCF08 /* MuseoSans-900.ttf in Resources */,
+				77819BB91A8A74D100C7FD9E /* JDFlipNumberView.bundle in Resources */,
+				777FFC501A67B191000DCF08 /* MuseoSans-700.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D968561A679FC600F319A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77D9683B1A679FC600F319A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D9684B1A679FC600F319A7 /* LoginViewController.m in Sources */,
+				77819BAE1A89DBE800C7FD9E /* JDFlipNumberView.m in Sources */,
+				77BDE5651A681AFB00A579EA /* UIColor+Hex.m in Sources */,
+				77E2A66B1A6BBB150053F4F6 /* GameArrowView.m in Sources */,
+				777FFC571A67CB0E000DCF08 /* UIView-ViewFrameGeometry.m in Sources */,
+				77819B991A89DB9100C7FD9E /* NumberFlipperView.m in Sources */,
+				77BDE56C1A68296200A579EA /* ScrollingBackgroundView.m in Sources */,
+				77BDE5991A6914E300A579EA /* CategoryButtonView.m in Sources */,
+				77BDE5751A684C1700A579EA /* MenuHeaderView.m in Sources */,
+				77BDE5691A68233500A579EA /* MainMenuCell.m in Sources */,
+				77BDE5591A68156100A579EA /* TrivieBackgroundView.m in Sources */,
+				77819BAA1A89DBE800C7FD9E /* JDDateCountdownFlipView.m in Sources */,
+				77E2A67C1A6BD9690053F4F6 /* GameStarView.m in Sources */,
+				77BDE56F1A683D4E00A579EA /* MenuFooterView.m in Sources */,
+				77E2A6601A6B93040053F4F6 /* GameViewController.m in Sources */,
+				77819BAF1A89DBE800C7FD9E /* JDFlipNumberViewImageFactory.m in Sources */,
+				77E2A68C1A6C87FC0053F4F6 /* ProfileBarView.m in Sources */,
+				77819BB51A89DC4500C7FD9E /* FlipDigitView.m in Sources */,
+				77819B8E1A897BD900C7FD9E /* FinalTrivieCardView.m in Sources */,
+				778E3B3F1A73EC5200F1A293 /* CategoryPopupView.m in Sources */,
+				77BDE55F1A6819B400A579EA /* Utils.m in Sources */,
+				77D968481A679FC600F319A7 /* AppDelegate.m in Sources */,
+				77E2A66E1A6BC12B0053F4F6 /* TopBarView.m in Sources */,
+				77D9686D1A67A2F400F319A7 /* CardView.m in Sources */,
+				7756CF891A7FF13400EC6271 /* NSDate+PSFoundation.m in Sources */,
+				77BDE5931A69007D00A579EA /* GameCreationViewController.m in Sources */,
+				77BDE57E1A68C42A00A579EA /* NavButtonView.m in Sources */,
+				77819BAD1A89DBE800C7FD9E /* JDFlipNumberDigitView.m in Sources */,
+				77819BB01A89DBE800C7FD9E /* UIView+JDFlipImageView.m in Sources */,
+				77E2A6681A6BB0A50053F4F6 /* GameCardView.m in Sources */,
+				77BDE5501A67F08E00A579EA /* MainMenuViewController.m in Sources */,
+				77BDE5841A68DA3500A579EA /* GameSubCategory.m in Sources */,
+				77E2A67F1A6BDB890053F4F6 /* GameClockView.m in Sources */,
+				778E3B391A73D29300F1A293 /* TrivieControl.m in Sources */,
+				77BDE59C1A691EAB00A579EA /* CategoryCardView.m in Sources */,
+				77BDE5961A69011500A579EA /* GameCreationCardView.m in Sources */,
+				778E3B361A73B8F900F1A293 /* TrivieView.m in Sources */,
+				775A5DF81A729A9400DCB8B0 /* ProfileViewController.m in Sources */,
+				775A5DFE1A72A83800DCB8B0 /* AvatarCell.m in Sources */,
+				77BDE5641A681AFB00A579EA /* NSNumber+Hex.m in Sources */,
+				77E2A6821A6BDEF50053F4F6 /* GameContentView.m in Sources */,
+				77E2A6771A6BCF5D0053F4F6 /* AnswerControl.m in Sources */,
+				77BDE55C1A6817DB00A579EA /* DrawingHelper.m in Sources */,
+				77D968451A679FC600F319A7 /* main.m in Sources */,
+				777FFC561A67CB0E000DCF08 /* UIView+Positioning.m in Sources */,
+				77E2A6631A6B9E230053F4F6 /* GameOverlayView.m in Sources */,
+				77E2A6571A6B4A370053F4F6 /* TrivieDivider.m in Sources */,
+				77BDE5531A67F3BF00A579EA /* LoginCardView.m in Sources */,
+				775A5DFB1A72A0FB00DCB8B0 /* AvatarViewController.m in Sources */,
+				77BDE54D1A67ED0900A579EA /* ParseManager.m in Sources */,
+				77E2A65A1A6B50AC0053F4F6 /* PowerUpCardView.m in Sources */,
+				778E3B421A778D4F00F1A293 /* Round.m in Sources */,
+				778E3B3C1A73EAE700F1A293 /* TrivieCircleView.m in Sources */,
+				77BDE5811A68DA2600A579EA /* GameCategory.m in Sources */,
+				77819BAC1A89DBE800C7FD9E /* JDFlipImageView.m in Sources */,
+				77BDE57B1A68A54F00A579EA /* NavBarView.m in Sources */,
+				775A5DDD1A727BF400DCB8B0 /* User.m in Sources */,
+				77E2A6891A6C59E90053F4F6 /* Match.m in Sources */,
+				77819B931A89B59900C7FD9E /* GameStatusViewController.m in Sources */,
+				77BDE5561A67FF8900A579EA /* TrivieViewController.m in Sources */,
+				77BDE5721A68464900A579EA /* ProfileImageView.m in Sources */,
+				77BDE5781A68A3F300A579EA /* TrivieNavController.m in Sources */,
+				77E2A65D1A6B79BD0053F4F6 /* AnimatedImageView.m in Sources */,
+				77E2A6711A6BCB740053F4F6 /* AnswerBorder.m in Sources */,
+				77E2A6741A6BCEC10053F4F6 /* NumberButton.m in Sources */,
+				7744E3C71A7E7AF5007CBF89 /* IntroViewController.m in Sources */,
+				77819BAB1A89DBE800C7FD9E /* JDFlipClockView.m in Sources */,
+				778E3B331A73A55000F1A293 /* Answer.m in Sources */,
+				77BDE5871A68EF7500A579EA /* CategoryManager.m in Sources */,
+				77BDE58A1A68F24800A579EA /* NSArray+SSToolkitAdditions.m in Sources */,
+				77E2A6861A6C2DD40053F4F6 /* Question.m in Sources */,
+				77BDE58D1A68F42E00A579EA /* NSData+SSToolkitAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D968541A679FC600F319A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D9685F1A679FC600F319A7 /* MyTrivieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77D9685A1A679FC600F319A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77D9683E1A679FC600F319A7 /* TriviaApp */;
+			targetProxy = 77D968591A679FC600F319A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77D9684C1A679FC600F319A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D9684D1A679FC600F319A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77D968511A679FC600F319A7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D968521A679FC600F319A7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77D968601A679FC600F319A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77D968611A679FC600F319A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77D968631A679FC600F319A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse",
+				);
+				GCC_PREFIX_HEADER = "MyTrivie/TriviaApp-Prefix.pch";
+				INFOPLIST_FILE = MyTrivie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = TriviaApp;
+			};
+			name = Debug;
+		};
+		77D968641A679FC600F319A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse",
+				);
+				GCC_PREFIX_HEADER = "MyTrivie/TriviaApp-Prefix.pch";
+				INFOPLIST_FILE = MyTrivie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = TriviaApp;
+			};
+			name = Release;
+		};
+		77D968661A679FC600F319A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyTrivieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = TriviaAppTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTrivie.app/MyTrivie";
+			};
+			name = Debug;
+		};
+		77D968671A679FC600F319A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyTrivieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = TriviaAppTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTrivie.app/MyTrivie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77D9683A1A679FC600F319A7 /* Build configuration list for PBXProject "TriviaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D968601A679FC600F319A7 /* Debug */,
+				77D968611A679FC600F319A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D968621A679FC600F319A7 /* Build configuration list for PBXNativeTarget "TriviaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D968631A679FC600F319A7 /* Debug */,
+				77D968641A679FC600F319A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D968651A679FC600F319A7 /* Build configuration list for PBXNativeTarget "TriviaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D968661A679FC600F319A7 /* Debug */,
+				77D968671A679FC600F319A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77D968371A679FC600F319A7 /* Project object */;
+}

@@ -1,0 +1,35 @@
+//
+//  MyTrivie-Prefix.pch
+//  MyTrivie
+//
+//  Created by Jennifer Duffey on 1/15/15.
+//  Copyright (c) 2015 Jennifer Duffey. All rights reserved.
+//
+
+#ifndef MyTrivie_MyTrivie_Prefix_pch
+#define MyTrivie_MyTrivie_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Parse/Parse.h>
+#import "Constants.h"
+#import "Utils.h"
+#import "GameCategory.h"
+#import "GameSubCategory.h"
+#import "User.h"
+#import "Match.h"
+#import "Question.h"
+#import "Round.h"
+#import "ParseManager.h"
+#import "CategoryManager.h"
+#import "UIView+Positioning.h"
+#import "UIView-ViewFrameGeometry.h"
+#import "NSArray+SSToolkitAdditions.h"
+#import "NSDate+PSFoundation.h"
+#import "DrawingHelper.h"
+#import "UIColor+Hex.h"
+#import "TrivieNavController.h"
+#import "TrivieBackgroundView.h"
+
+#endif
