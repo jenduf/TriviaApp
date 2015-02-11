@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MuseoSans-500.ttf">
+            <string>MuseoSans-500</string>
+            <string>MuseoSans-500</string>
+            <string>MuseoSans-500</string>
+            <string>MuseoSans-500</string>
+            <string>MuseoSans-500</string>
+            <string>MuseoSans-500</string>
+        </mutableArray>
+        <mutableArray key="MuseoSans-700.ttf">
+            <string>MuseoSans-700</string>
+            <string>MuseoSans-700</string>
+        </mutableArray>
+        <mutableArray key="Rockwell-Bold.ttf">
+            <string>Rockwell-Bold</string>
+            <string>Rockwell-Bold</string>
+            <string>Rockwell-Bold</string>
+            <string>Rockwell-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FinalTrivieCardView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ENv-45-jFd" customClass="GameContentView">
+                    <rect key="frame" x="124" y="0.0" width="352" height="506"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="game_background_final" translatesAutoresizingMaskIntoConstraints="NO" id="3M3-X8-UxK">
+                            <rect key="frame" x="0.0" y="0.0" width="352" height="506"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aXi-es-9Y1" customClass="TopBarView">
+                            <rect key="frame" x="0.0" y="0.0" width="351" height="40"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aWE-sq-ExB" customClass="GameStarView">
+                                    <rect key="frame" x="8" y="12" width="16" height="16"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3,500" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecf-JX-2af">
+                                    <rect key="frame" x="32" y="10" width="81" height="20"/>
+                                    <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="23"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <size key="shadowOffset" width="0.0" height="1"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="150" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0R3-JK-Ntm">
+                                    <rect key="frame" x="131" y="5" width="92" height="29"/>
+                                    <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="30"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <size key="shadowOffset" width="0.0" height="1"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="14" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9l-Qy-sfD">
+                                    <rect key="frame" x="249" y="10" width="69" height="20"/>
+                                    <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="23"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <size key="shadowOffset" width="0.0" height="1"/>
+                                </label>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BZo-3c-FMD" customClass="GameClockView">
+                                    <rect key="frame" x="326" y="10" width="20" height="20"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="points" destination="0R3-JK-Ntm" id="Sfl-Y7-Qsq"/>
+                                <outlet property="score" destination="ecf-JX-2af" id="TwK-Ra-thg"/>
+                                <outlet property="timer" destination="J9l-Qy-sfD" id="pw5-tk-pTb"/>
+                            </connections>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question Text" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttt-Xz-pk9">
+                            <rect key="frame" x="18" y="41" width="318" height="89"/>
+                            <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="18"/>
+                            <color key="textColor" red="0.1137254902" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                        <view clipsSubviews="YES" tag="2" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CQo-kW-gTP" customClass="AnswerControl">
+                            <rect key="frame" x="18" y="146" width="318" height="55"/>
+                            <subviews>
+                                <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s6V-Nn-Srb" customClass="AnswerBorder">
+                                    <rect key="frame" x="0.0" y="0.0" width="318" height="55"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer Text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hed-Hb-kBA">
+                                            <rect key="frame" x="60" y="0.0" width="250" height="55"/>
+                                            <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="21"/>
+                                            <color key="textColor" red="0.1137254902" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <size key="shadowOffset" width="0.0" height="1"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="answerText" destination="hed-Hb-kBA" id="Ds8-AI-gpc"/>
+                                    </connections>
+                                </view>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NyK-tD-Yzn" customClass="NumberButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="53" height="55"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybq-GA-V0K">
+                                            <rect key="frame" x="0.0" y="0.0" width="53" height="55"/>
+                                            <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="40"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="answerBorder" destination="s6V-Nn-Srb" id="bVn-3u-dzW"/>
+                                <outlet property="numberButton" destination="NyK-tD-Yzn" id="gH8-4F-xO7"/>
+                            </connections>
+                        </view>
+                        <view clipsSubviews="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1kS-JU-qGP" customClass="AnswerControl">
+                            <rect key="frame" x="18" y="209" width="318" height="55"/>
+                            <subviews>
+                                <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mPn-1d-dBP" customClass="AnswerBorder">
+                                    <rect key="frame" x="0.0" y="0.0" width="318" height="55"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer Text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWc-Pq-fwB">
+                                            <rect key="frame" x="60" y="0.0" width="250" height="55"/>
+                                            <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="21"/>
+                                            <color key="textColor" red="0.1137254902" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <size key="shadowOffset" width="0.0" height="1"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="answerText" destination="qWc-Pq-fwB" id="ThC-ad-NjA"/>
+                                    </connections>
+                                </view>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KHP-mE-gXb" customClass="NumberButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="53" height="55"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pL-3N-Vbb">
+                                            <rect key="frame" x="0.0" y="0.0" width="53" height="55"/>
+                                            <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="40"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="answerBorder" destination="mPn-1d-dBP" id="gBb-eA-IRo"/>
+                                <outlet property="numberButton" destination="KHP-mE-gXb" id="EPj-ku-bEg"/>
+                            </connections>
+                        </view>
+                        <view clipsSubviews="YES" tag="4" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vak-Ja-WAV" customClass="AnswerControl">
+                            <rect key="frame" x="18" y="272" width="318" height="55"/>
+                            <subviews>
+                                <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mdW-Gg-KEb" customClass="AnswerBorder">
+                                    <rect key="frame" x="0.0" y="0.0" width="318" height="55"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer Text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Nc-Ah-hOA">
+                                            <rect key="frame" x="60" y="0.0" width="250" height="55"/>
+                                            <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="21"/>
+                                            <color key="textColor" red="0.1137254902" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <size key="shadowOffset" width="0.0" height="1"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="answerText" destination="6Nc-Ah-hOA" id="1Yl-Hw-UQp"/>
+                                    </connections>
+                                </view>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Eu-R8-hK0" customClass="NumberButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="53" height="55"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63w-cQ-BN2">
+                                            <rect key="frame" x="0.0" y="0.0" width="53" height="55"/>
+                                            <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="40"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="answerBorder" destination="mdW-Gg-KEb" id="J7D-kB-2tW"/>
+                                <outlet property="numberButton" destination="7Eu-R8-hK0" id="3ib-dU-bMh"/>
+                            </connections>
+                        </view>
+                        <view clipsSubviews="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U8e-dM-aQp" customClass="AnswerControl">
+                            <rect key="frame" x="18" y="335" width="318" height="55"/>
+                            <subviews>
+                                <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T48-Ty-MFO" customClass="AnswerBorder">
+                                    <rect key="frame" x="0.0" y="0.0" width="318" height="55"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer Text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7K-rh-Mlv">
+                                            <rect key="frame" x="60" y="0.0" width="250" height="55"/>
+                                            <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="21"/>
+                                            <color key="textColor" red="0.1137254902" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <size key="shadowOffset" width="0.0" height="1"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="answerText" destination="d7K-rh-Mlv" id="XQ6-cx-Yer"/>
+                                    </connections>
+                                </view>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Et-8h-BAs" customClass="NumberButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="53" height="55"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="onc-nU-kNe">
+                                            <rect key="frame" x="0.0" y="0.0" width="53" height="55"/>
+                                            <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="40"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="answerBorder" destination="T48-Ty-MFO" id="8WC-Dz-NpJ"/>
+                                <outlet property="numberButton" destination="3Et-8h-BAs" id="8Zp-lW-ZhZ"/>
+                            </connections>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="final_trivie_logo" translatesAutoresizingMaskIntoConstraints="NO" id="utf-NG-hOw">
+                            <rect key="frame" x="16" y="320" width="320" height="186"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="questionText" destination="ttt-Xz-pk9" id="RYp-1G-Aom"/>
+                        <outlet property="topBarView" destination="aXi-es-9Y1" id="SnK-8s-6bB"/>
+                        <outletCollection property="answers" destination="CQo-kW-gTP" id="72Y-AJ-Bcn"/>
+                        <outletCollection property="answers" destination="1kS-JU-qGP" id="xH3-tG-PPX"/>
+                        <outletCollection property="answers" destination="Vak-Ja-WAV" id="UV3-mt-yJw"/>
+                        <outletCollection property="answers" destination="U8e-dM-aQp" id="9Fe-z9-PZj"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aem-vF-zfV" customClass="GameOverlayView">
+                    <rect key="frame" x="124" y="0.0" width="352" height="450"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7MV-Mk-TRw" customClass="TrivieBackgroundView">
+                            <rect key="frame" x="0.0" y="0.0" width="352" height="393"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="overlay_bottom_final" translatesAutoresizingMaskIntoConstraints="NO" id="o40-yR-Exr">
+                            <rect key="frame" x="-2" y="393" width="356" height="38"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="final_trivie_icon" translatesAutoresizingMaskIntoConstraints="NO" id="l0j-Ts-DyN">
+                            <rect key="frame" x="71" y="51" width="213" height="239"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nPX-Op-TQ4" customClass="GameArrowView">
+                            <rect key="frame" x="165" y="383" width="24" height="26"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="bottomImageView" destination="o40-yR-Exr" id="xda-Tl-MIH"/>
+                        <outlet property="categoryIcon" destination="l0j-Ts-DyN" id="LYD-TQ-JAg"/>
+                        <outlet property="trivieBackgroundView" destination="7MV-Mk-TRw" id="cmu-zd-Vow"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="final_trivie_icon" width="213" height="239"/>
+        <image name="final_trivie_logo" width="320" height="186"/>
+        <image name="game_background_final" width="352" height="506"/>
+        <image name="overlay_bottom_final" width="300" height="36"/>
+    </resources>
+</document>

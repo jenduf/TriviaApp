@@ -31,7 +31,6 @@
 		77819BAE1A89DBE800C7FD9E /* JDFlipNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819BA51A89DBE800C7FD9E /* JDFlipNumberView.m */; };
 		77819BAF1A89DBE800C7FD9E /* JDFlipNumberViewImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819BA71A89DBE800C7FD9E /* JDFlipNumberViewImageFactory.m */; };
 		77819BB01A89DBE800C7FD9E /* UIView+JDFlipImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819BA91A89DBE800C7FD9E /* UIView+JDFlipImageView.m */; };
-		77819BB51A89DC4500C7FD9E /* FlipDigitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77819BB41A89DC4500C7FD9E /* FlipDigitView.m */; };
 		77819BB91A8A74D100C7FD9E /* JDFlipNumberView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77819BB81A8A74D100C7FD9E /* JDFlipNumberView.bundle */; };
 		778E3B331A73A55000F1A293 /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 778E3B321A73A55000F1A293 /* Answer.m */; };
 		778E3B361A73B8F900F1A293 /* TrivieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 778E3B351A73B8F900F1A293 /* TrivieView.m */; };
@@ -156,8 +155,6 @@
 		77819BA71A89DBE800C7FD9E /* JDFlipNumberViewImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberViewImageFactory.m; sourceTree = "<group>"; };
 		77819BA81A89DBE800C7FD9E /* UIView+JDFlipImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDFlipImageView.h"; sourceTree = "<group>"; };
 		77819BA91A89DBE800C7FD9E /* UIView+JDFlipImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDFlipImageView.m"; sourceTree = "<group>"; };
-		77819BB31A89DC2C00C7FD9E /* FlipDigitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipDigitView.h; sourceTree = "<group>"; };
-		77819BB41A89DC4500C7FD9E /* FlipDigitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipDigitView.m; sourceTree = "<group>"; };
 		77819BB81A8A74D100C7FD9E /* JDFlipNumberView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDFlipNumberView.bundle; sourceTree = "<group>"; };
 		778E3B311A73A55000F1A293 /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Answer.h; sourceTree = "<group>"; };
 		778E3B321A73A55000F1A293 /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer.m; sourceTree = "<group>"; };
@@ -517,8 +514,7 @@
 				77D968471A679FC600F319A7 /* AppDelegate.m */,
 				77D968421A679FC600F319A7 /* Supporting Files */,
 			);
-			name = TriviaApp;
-			path = MyTrivie;
+			path = TriviaApp;
 			sourceTree = "<group>";
 		};
 		77D968421A679FC600F319A7 /* Supporting Files */ = {
@@ -543,8 +539,7 @@
 				77D9685E1A679FC600F319A7 /* MyTrivieTests.m */,
 				77D9685C1A679FC600F319A7 /* Supporting Files */,
 			);
-			name = TriviaAppTests;
-			path = MyTrivieTests;
+			path = TriviaAppTests;
 			sourceTree = "<group>";
 		};
 		77D9685C1A679FC600F319A7 /* Supporting Files */ = {
@@ -624,8 +619,6 @@
 				77BDE56E1A683D4E00A579EA /* MenuFooterView.m */,
 				77BDE5731A684C1700A579EA /* MenuHeaderView.h */,
 				77BDE5741A684C1700A579EA /* MenuHeaderView.m */,
-				77819BB31A89DC2C00C7FD9E /* FlipDigitView.h */,
-				77819BB41A89DC4500C7FD9E /* FlipDigitView.m */,
 				77819B9A1A89DB9E00C7FD9E /* NumberFlipperView.h */,
 				77819B981A89DB9100C7FD9E /* NumberFlipperView.m */,
 			);
@@ -799,7 +792,6 @@
 				77E2A6601A6B93040053F4F6 /* GameViewController.m in Sources */,
 				77819BAF1A89DBE800C7FD9E /* JDFlipNumberViewImageFactory.m in Sources */,
 				77E2A68C1A6C87FC0053F4F6 /* ProfileBarView.m in Sources */,
-				77819BB51A89DC4500C7FD9E /* FlipDigitView.m in Sources */,
 				77819B8E1A897BD900C7FD9E /* FinalTrivieCardView.m in Sources */,
 				778E3B3F1A73EC5200F1A293 /* CategoryPopupView.m in Sources */,
 				77BDE55F1A6819B400A579EA /* Utils.m in Sources */,
@@ -977,12 +969,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse",
 				);
-				GCC_PREFIX_HEADER = "MyTrivie/TriviaApp-Prefix.pch";
-				INFOPLIST_FILE = MyTrivie/Info.plist;
+				GCC_PREFIX_HEADER = "TriviaApp/TriviaApp-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TriviaApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = TriviaApp;
@@ -993,12 +986,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse",
 				);
-				GCC_PREFIX_HEADER = "MyTrivie/TriviaApp-Prefix.pch";
-				INFOPLIST_FILE = MyTrivie/Info.plist;
+				GCC_PREFIX_HEADER = "TriviaApp/TriviaApp-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TriviaApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = TriviaApp;
@@ -1017,11 +1011,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MyTrivieTests/Info.plist;
+				INFOPLIST_FILE = TriviaAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = TriviaAppTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTrivie.app/MyTrivie";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriviaApp.app/TriviaApp";
 			};
 			name = Debug;
 		};
@@ -1033,11 +1027,11 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MyTrivieTests/Info.plist;
+				INFOPLIST_FILE = TriviaAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = TriviaAppTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTrivie.app/MyTrivie";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriviaApp.app/TriviaApp";
 			};
 			name = Release;
 		};
